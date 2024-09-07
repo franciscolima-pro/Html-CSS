@@ -1,0 +1,19 @@
+
+.field{
+    margin: 3rem;
+}
+body{
+    padding: 3rem;
+}
+#but{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    background-color: #157347;
+    border: none;
+    border-radius: 3px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,53 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin: 5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.submit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px; 
+  }
+  button {
+    width: 100%; 
+    padding: 10px;
+    box-shadow: 3px 3px 3px #0c0c0c8f;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+  button span {
+    display: inline-block; 
+    color: #fff; /* Cor do texto */
+  }
+
+body{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
