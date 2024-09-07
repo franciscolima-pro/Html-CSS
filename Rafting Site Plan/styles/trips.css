@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&display=swap');
+:root {
+    --primary-color: #385580;
+    --secondary-color: #c3d0de; 
+    --accent1-color: #052d68; 
+    --accent2-color: #f2ebea;
+  
+    --heading-font: 'Croissant One', serif; 
+    --paragraph-font: 'Inclusive Sans', sans-serif; 
+}
+
+
+body {
+    background-image: linear-gradient(white, #ffffff);
+}
+.imge {
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+    padding: 0.40rem;
+    text-align: left;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.imge:hover {
+    transform: scale(1.1);
+}
+section {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 1rem;
+}
+h2 {
+    text-align: center;
+    color: var(--primary-color);
+    text-shadow: 1px 1px #02060c;
+    margin: 6rem;
+    font-family: var(--heading-font);
+}
+.call-to-action {
+    display: flex;
+    align-items: center;
+    background-color: var(--accent1-color);
+    border-radius: 5px;
+    font-family: var(--heading-font);
+    height: 40px;
+    color: white;
+    text-shadow: 1px 1px #02060c;
+}
+.call-to-action a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.call-to-action img{
+    position: relative;
+    margin-left: 9.5rem;
+    margin-right: 18rem;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--heading-font);
+    height: 40px;
+    color: var(--primary-color);
+}
+.btn-primary{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 0.8rem;
+}
+.btn-primary:hover {
+    transform: scale(1);
+    text-shadow: 1px 1px #02060c;
+}
+main div img {
+    position: absolute;
+    left: 180px;
+    bottom: 520px;
+}
+.table-trips {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.table-trips thead tr th{
+    padding: 0 30px;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+}
+footer a {
+    text-decoration: none;
+    color: var(--primary-color) ;
+}
+.trips {
+    margin: 50px;
+}
+main section p {
+    margin: 40px;
+    margin-right: 80px;
+}
